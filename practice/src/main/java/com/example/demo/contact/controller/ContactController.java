@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.example.demo.contact.controller;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpSession;
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import com.example.demo.form.ContactForm;
-import com.example.demo.service.ContactService;
+import com.example.demo.contact.form.ContactForm;
+import com.example.demo.contact.service.ContactService;
 
 
 @Controller
