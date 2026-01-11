@@ -1,5 +1,7 @@
 package com.example.demo.contact.service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -28,6 +30,11 @@ public class ContactServiceImpl implements ContactService {
 		contact.setBody(contactForm.getBody());
 		
 		contactRepository.save(contact);
+	}
+	
+	@Override
+	public List<Contact> findAll() {
+		return contactRepository.findAll();
 	}
 
 }
