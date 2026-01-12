@@ -46,6 +46,12 @@
 					<p th:text="${contact.updatedAt}"></p>
 				</td>
 			</tr>
+			<tr>
+				<td>操作</td>
+				<td>
+					<a th:href="@{/admin/contacts/{id}(id=${contact.id})}">詳細</a>
+				</td>
+			</tr>
 		</table>
 	</form>
 </body>
