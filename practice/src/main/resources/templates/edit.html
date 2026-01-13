@@ -9,7 +9,6 @@
 <body>
 	<h1>お問い合わせ編集</h1>
 
-	<!-- 更新フォーム -->
 	<form th:action="@{/admin/contacts/{id}/update(id=${id})}" th:object="${form}" method="post">
 		<table border="1">
 			<tr>

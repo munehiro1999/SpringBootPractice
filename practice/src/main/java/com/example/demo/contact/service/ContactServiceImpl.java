@@ -32,6 +32,7 @@ public class ContactServiceImpl implements ContactService {
 		contactRepository.save(contact);
 	}
 	
+	// contactsのデータベースから全情報の取得をしている。
 	@Override
 	public List<Contact> findAll() {
 		return contactRepository.findAll();
