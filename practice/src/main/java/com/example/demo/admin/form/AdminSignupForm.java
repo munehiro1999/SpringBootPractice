@@ -8,7 +8,7 @@ import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 
 @Data
-public class AdminContactForm implements Serializable {
+public class AdminSignupForm implements Serializable {
 	
 	@NotBlank
 	private String lastName;
