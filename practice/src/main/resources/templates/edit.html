@@ -81,6 +81,10 @@
 
 	<br>
 	<a th:href="@{/admin/contacts/{id}(id=${id})}">キャンセル</a>
+	
+	<form th:action="@{/admin/logout}" method="post">
+			<button type="submit">ログアウト</button>
+		</form>
 </body>
 
 </html>
