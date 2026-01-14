@@ -61,5 +61,8 @@
     <br>
     <a th:href="@{/admin/contacts/{id}/edit(id=${contact.id})}">編集</a>
     <a th:href="@{/admin/contacts}">一覧に戻る</a>
+	<form th:action="@{/admin/logout}" method="post">
+		<button type="submit">ログアウト</button>
+	</form>
 </body>
 </html>
